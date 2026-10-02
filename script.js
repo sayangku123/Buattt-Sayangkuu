@@ -590,7 +590,7 @@ const ringTexts = [
   '♡Kamalia Putri♡',//untuk deskripsi planet layer 1
   "♡I Love You♡",//untuk deskripsi planet layer 2
   "♡Happy Birth Day♡",//untuk deskripsi planet layer 3
-  "♡10/12/2025♡",//untuk deskripsi planet layer 4
+  "♡10/12/2026♡",//untuk deskripsi planet layer 4
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
 ];
 
@@ -1067,7 +1067,7 @@ function createHintText() {
   canvas.width = canvas.height = canvasSize;
   const context = canvas.getContext('2d');
   const fontSize = 50;
-  const text = 'Happy Girlfriend Day!';
+  const text = 'Happy Birth Day Liaakuu!';
   context.font = `bold ${fontSize}px Arial, sans-serif`;
   context.textAlign = 'center';
   context.textBaseline = 'middle';
